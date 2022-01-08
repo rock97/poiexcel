@@ -120,7 +120,7 @@ public class ExcelUtil {
      * 获取导出数据
      * @return
      */
-    private byte[] exportExcel(){
+    public byte[] exportExcel(){
         byte[] bytes = null;
         ByteArrayOutputStream out = new ByteArrayOutputStream();
 
